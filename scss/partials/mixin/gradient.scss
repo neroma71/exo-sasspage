@@ -1,0 +1,6 @@
+    @mixin mygradient{
+        background: #00c1db;
+        background: -moz-radial-gradient(center, ellipse cover,lighten($myblue, 20%) 0%, darken($myblue, 100%) 130%);
+	    background: -webkit-radial-gradient(center, ellipse cover, lighten($myblue, 20%) 0%, darken($myblue, 100%) 130%);
+	    background: radial-gradient(ellipse at center, lighten($myblue, 20%) 0%, darken($myblue, 100%) 130%);
+    }
